@@ -1,0 +1,2 @@
+# FreespaceEmailAlert
+This app monitors freespace on a certain drive if it is less than the amount in freespace.vbs it will mail the email address that is set in the mailsend.bat file. This is achieved by adding the freespace.bat under the scheduled tasks and running it when desired. Through mailsend.bat &amp; mailsend.exe it will be able to mail the recipients the relative info and also the body of msg.txt.If triggered it will log to sendmail.txt. Using VBScript , DOS and the mailsend.exe. 
